@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+    />
+    <title>Empire Cinemas: View listings and book tickets now!</title>
+    <meta
+      name="description"
+      content="Find out what are the latest movies at Empire Cinemas. Watch trailers, check movie schedules, book cinema tickets and food online!"
+    />
+    <meta property="og:url" content="https://lb.empirecinemas.com" />
+    <meta property="og:site_name" content="Empire Cinemas" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="<%= htmlWebpackPlugin.files.publicPath %>static/img/logo_p_ver.png"
+    />
+    <meta
+      property="og:title"
+      content="Empire Cinemas: View listings and book tickets now!"
+    />
+    <meta
+      property="og:description"
+      content="Find out what are the latest movies at Empire Cinemas. Watch trailers, check movie schedules, book cinema tickets and food online!"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="<%= htmlWebpackPlugin.files.publicPath %>static/img/twitter144_144.jpg"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/vue-multiselect@2.1.0/dist/vue-multiselect.min.css"
+    />
+    <meta name="theme-color" content="#ce202e" />
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Empire Cinemas" />
+
+    <meta
+      name="facebook-domain-verification"
+      content="25evwzyt2kl67j04bcdk1535putr0q"
+    />
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/safari-pinned-tab.svg"
+    />
+    <link
+      rel="mask-icon"
+      href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/safari-pinned-tab.svg"
+      color="#4DBA87"
+    />
+    <!-- Add to home screen for Windows -->
+    <meta
+      name="msapplication-TileImage"
+      content="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/safari-pinned-tab.svg"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+
+    <script src="https://apis.google.com/js/api:client.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+
+    <style>
+      .ytp-cued-thumbnail-overlay-image {
+        background-size: contain !important;
+        -moz-background-size: contain !important;
+        -webkit-background-size: contain !important;
+      }
+      .hidden-block {
+        background-color: transparent;
+        height: 200px;
+        width: 200px;
+        margin-left: auto;
+        /* position: absolute; */
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        /* border-radius: 50%; */
+        /* margin-bottom: 160px; */
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body class="">
+    <noscript>
+      This is your fallback content in case JavaScript fails to load.
+    </noscript>
+    <div
+      style="background-color:#333; color: white;text-align: center; position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:2000;"
+      id="loader"
+    ></div>
+    <div id="app"></div>
+
+    <!-- Todo: only include in production -->
+    <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
+  </body>
+</html>

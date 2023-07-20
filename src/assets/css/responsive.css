@@ -1,0 +1,990 @@
+@media screen and (min-width: 100px) and (max-width: 320px) {
+  .gb-btn {
+    font-size: 10px;
+  }
+}
+
+
+@media(max-width:767px) {
+
+
+  .movieBox-container:nth-child(odd) {
+    padding-right: 0.5rem;
+  }
+
+  .movieBox-container:nth-child(even) {
+    padding-left: 0.5rem;
+  }
+
+  .preferencessList li {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    width: 45%;
+    text-transform: uppercase;
+    margin-right: 0.5rem !important;
+  }
+
+  .country-selection-list {
+    font-size: 14px !important;
+  }
+
+  .country-selection-list li img {
+    height: auto;
+    width: 50px;
+  }
+
+  .md-accordion .accordion .card-header .btn {
+    padding: 0.4rem 0.7rem !important;
+    font-size: 15px;
+  }
+
+  .offer-box-shadow h4 {
+    font-size: 1.25rem;
+  }
+
+  .offer-input {
+    padding: 8px 15px 8px;
+  }
+
+  .offer-card .offer-card-logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .offer-main-box .nav-tabs.card-header-tabs,
+  .checkout-offers-box .nav-tabs.card-header-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    /* padding-bottom: 15px; */
+  }
+
+  .md-date-list .time-box {
+    width: 108px;
+    font-size: 17px;
+  }
+
+  .gb-btn {
+    font-size: 11px;
+  }
+
+  .advt-modal .modal-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about-video iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .foodBevrage .sub-box:last-child {
+    margin-bottom: 80px !important;
+  }
+
+  .iraq-contact-modal header {
+    display: none;
+  }
+
+  .new-header {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+
+  .new-header .new-logo-img {
+    height: auto;
+    width: 150px;
+  }
+
+  .new-header .down-img {
+    height: auto;
+    width: 20px;
+  }
+
+  .main-logo {
+    max-width: 94%;
+    margin-bottom: 50px;
+  }
+
+  .leftVideoSlider .st-box .st-img {
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .cus-list .fbCat li.active::after {
+    content: none;
+  }
+
+  .fbDetails {
+    padding: 20px 15px 15px 15px;
+  }
+
+  .foodBevrage .fb-name {
+    font-size: 12px;
+  }
+
+  .movie-n {
+    font-size: 12px;
+  }
+
+  .profile-tabs .nav-link.active::after {
+    content: none;
+  }
+
+  .profile-tabs .nav-tabs {
+    justify-content: start;
+  }
+
+  /* .cus-list .fbCat {
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0px;
+  } */
+  .cus-list p .selected-items {
+    font-size: 12px;
+  }
+
+  .seatLayoutSection .seatNumList li {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+  }
+
+  .seatLayoutSection .txt {
+    font-size: 14px;
+  }
+
+  .movieName {
+    top: 14% !important;
+    font-size: 12px !important;
+  }
+
+  .userSelection {
+    position: relative;
+    font-size: 10px;
+  }
+
+  .mvSection .leftVideoSlider {
+    overflow: auto;
+    white-space: nowrap;
+    height: auto !important;
+  }
+
+  .homeMovieSection .slick-prev {
+    left: 5%;
+    background-size: 12px !important;
+  }
+
+  .homeMovieSection .slick-next {
+    right: 5%;
+    background-size: 12px !important;
+  }
+
+  .leftVideoSlider li {
+    width: 100%;
+    display: inline-flex;
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+
+  /* moviedetails page */
+  .movie-desc {
+    font-size: 12px;
+  }
+
+  .mov-det h5 {
+    font-size: 12px;
+  }
+
+  .mov-det p {
+    font-size: 12px;
+  }
+
+  .dotline-box,
+  .whitedotline-box {
+    width: 90%;
+  }
+
+  .md-img {
+    min-height: 209px;
+  }
+
+  .movie-tiitle h2 {
+    /* font-size: 14px; */
+    font-size: 20px;
+  }
+
+  .movie-tiitle ul li {
+    font-size: 12px;
+  }
+
+  .movieDesBox {
+    background: linear-gradient(to top, #E4E4E4, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+  }
+
+  .btn-light-grey {
+    font-size: 12px;
+    height: 25px;
+  }
+
+  .mdate li {
+    margin: 0px 20px 0px 0px;
+  }
+
+  .mdate li a {
+    font-size: 29px;
+  }
+
+  .mday {
+    font-size: 10px;
+    top: 2px;
+    right: -22px;
+    padding: 2px;
+  }
+
+  .Cexpirence li {
+    min-width: 70px;
+    width: auto;
+  }
+
+  .showtime {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .dotline-box {
+    width: 100%;
+  }
+
+  .w100 {
+    width: 100% !important;
+  }
+
+  .profile-mob-ticket {
+    font-size: 12px;
+  }
+
+  .browse-cinema .emp-dropdown .dropdown-toggle::after {
+    right: 20px;
+  }
+
+  .browse-cinema .emp-dropdown .btn {
+    font-size: 12px;
+  }
+
+  .browse-cinema .emp-dropdown {
+    margin-bottom: 12px;
+  }
+
+  .hslider-moviename {
+    font-size: 80% !important;
+  }
+
+  .hslider-text {
+    font-size: 10px;
+  }
+
+  .hslider-text li {
+    font-size: 10px;
+  }
+
+  .m-ticket {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.25) !important;
+  }
+
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+  .foodBevrage .fb-name {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:991px) {
+  .cus-list .fbCat {
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0px;
+  }
+
+  .quickbook {
+    zoom: 0;
+  }
+
+  .quickbook .eightpx {
+    font-size: 14px;
+  }
+
+  .quickbook .emp-dropdown .btn {
+    font-size: 12px;
+  }
+
+  .Cexpirence li {
+    min-width: 70px;
+    width: auto;
+  }
+
+  .showtime {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .dotline-box {
+    width: 100%;
+  }
+
+  .w100 {
+    width: 100% !important;
+  }
+
+  .profile-mob-ticket {
+    font-size: 12px;
+  }
+
+  .browse-cinema .emp-dropdown .dropdown-toggle::after {
+    right: 12px;
+  }
+
+  .browse-cinema .emp-dropdown {
+    margin-bottom: 12px;
+  }
+
+  .hp-slider {
+    height: 410px !important;
+  }
+
+  .hp-slider .carousel-3d-slider {
+    width: 268px !important;
+    height: 420px !important;
+  }
+
+  .video-movie-box {
+    height: 150px;
+  }
+
+  .cs-btn {
+    font-size: 10px;
+    padding: 5px 2px;
+    height: auto;
+  }
+
+  .movieBox .content {
+    padding: 9px;
+  }
+
+  .new-movies span {
+    font-size: 12px;
+  }
+
+  .movieDetail-slider .mdImg img {
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+  .main-logo2 {
+    max-width: 50%;
+  }
+
+  .movieDetail-slider .mdImg img {
+    height: 390px;
+  }
+}
+
+@media(max-width:991px) {
+
+  .offer-or-text {
+    top: -15px;
+    left: 50%;
+    margin-left: 0px;
+    transform: translate(-50%, -50%);
+  }
+
+  .cus-list .fbCat {
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0px;
+  }
+
+  .quickbook {
+    zoom: 0;
+  }
+
+  .quickbook .eightpx {
+    font-size: 14px;
+  }
+
+  .quickbook .emp-dropdown .btn {
+    font-size: 12px;
+  }
+
+  .quickbook .qb-btn {
+    font-size: 12px;
+  }
+}
+
+@media(min-width:992px) {
+  .landing-bg-img {
+    overflow-y: hidden;
+    min-height: 100% !important;
+  }
+
+  .landing-bg-img {
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .advt-modal .modal-content {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .quickbook-content .b-dropdown button {
+    font-size: 10px;
+  }
+
+  .btn-showTickets {
+    font-size: 11px;
+  }
+
+  .quickbook .eightpx {
+    font-size: 12px;
+  }
+
+  .quickbook .emp-dropdown .btn {
+    font-size: 10px;
+  }
+
+  .quickbook .qb-btn {
+    font-size: 10px;
+  }
+
+  .quickbook .qb-text::after {
+    right: 6px;
+  }
+
+  .quickbook .qb-btn {
+    padding: 0 6px;
+  }
+
+  .qb-btn svg {
+    width: 15px;
+    height: auto;
+  }
+
+  .quickbook .qblg {
+    padding: 0 10px;
+  }
+
+  /* .quickbook .emp-dropdown .btn{
+    padding: 1px 0.5rem;
+  } */
+  header {
+    font-size: 14px;
+  }
+
+  header .right-subnav a {
+    font-size: 10px;
+  }
+
+  .fbDetails {
+    padding: 15px 0px 15px 10px;
+  }
+
+  .foodBevrage .fb-name {
+    font-size: 14px;
+  }
+
+  .foodBevrage .fb-price {
+    font-size: 12px;
+  }
+
+  .brCinema .eTitle {
+    font-size: 16px;
+  }
+
+  .brCinema .yr {
+    font-size: 14px;
+  }
+
+  .brCinema ul li {
+    font-size: 14px;
+  }
+
+  .cinemaShowtime li {
+    width: 85px;
+    height: 80px;
+    margin: 0px 15px;
+    padding-top: 5px;
+  }
+
+  .timing-slot p,
+  .timing-slot span {
+    font-size: 12px;
+  }
+
+  .quickbook {
+    zoom: 0.9;
+  }
+
+  /* movie box */
+  .new-movies span {
+    font-size: 12px;
+  }
+
+  .movieBox span {
+    font-size: 12px;
+  }
+
+  .movieBox .content ul li,
+  .movieBox .content button,
+  .movieBox .content a {
+    font-size: 10px;
+  }
+
+  .mb-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .movieBox .content .btn-white {
+    height: 25px;
+  }
+
+  .cus-br-cinema a {
+    font-size: 12px;
+  }
+
+  .main-logo2 {
+    max-width: 30%;
+  }
+
+  /* .eightpx {
+    font-size: 14px;
+  }
+
+  .quickbook .emp-dropdown .btn {
+    font-size: 12px;
+  }
+  .quickbook .datePicker input {
+    font-size: 13px;
+  } */
+  /* 
+  .quickbook .qb-btn {
+    font-size: 12px
+  } */
+
+  .quickbook .emp-dropdown .dropdown-menu .dropdown-item {
+    font-size: 12px;
+    padding: 0.25rem 1.2rem;
+  }
+
+  .quickbook .qb-text::after {
+    height: 32px;
+  }
+
+  .hp-slider {
+    height: 395px !important;
+  }
+
+  .hp-slider .carousel-3d-slider {
+    width: 268px !important;
+    height: 395px !important;
+  }
+
+  /* .hp-slider{
+    height: 395px !important;
+  }
+
+  .hp-slider .carousel-3d-slider{
+    width: 268px !important;
+    height:  395px !important;
+  } */
+
+  /* .hp-slider .carousel-3d-slider div{
+    margin: 0 auto;
+    display: table;
+  }
+  .hp-slider .carousel-3d-slider img{
+    max-width: 85%;
+    margin: 0 auto;
+  } */
+  .wt-text {
+    float: right;
+  }
+
+  .wt-text img {
+    float: right;
+  }
+}
+
+
+@media(max-width:1200px) {
+
+
+  header .emp-header .navbar-brand {
+    width: 170px;
+  }
+
+  header .emp-header .center-menu {
+    font-size: 12px;
+  }
+
+  header .emp-header .right-subnav li {
+    height: 40px;
+  }
+
+  header .emp-header .right-subnav a {
+    font-size: 8px;
+  }
+
+}
+
+@media(min-width:1200px) {
+
+
+
+  .navbar-light .navbar-brand {
+    width: 18%;
+  }
+
+  .center-menu .nav-item .nav-link {
+    font-size: 12px;
+  }
+
+  .right-subnav .nav-item .nav-link {
+    font-size: 10px;
+  }
+
+  /* 
+  .promo-addS {
+    max-width: 98%;
+  } */
+
+  .promo-addS .slick-slide img {
+    height: 150px;
+  }
+
+  .quickbook .qb-text::after {
+    height: 50px;
+  }
+
+  .fbDetails {
+    padding: 20px 0px 20px 10px;
+  }
+
+  .foodBevrage .fb-name {
+    font-size: 14px;
+  }
+
+  .foodBevrage .fb-price {
+    font-size: 12px;
+  }
+
+  .cinemaShowtime {
+    margin-top: 20px;
+  }
+
+  .filter-list li,
+  .filter-list button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width:1366px) {
+
+  .clubempire-card.red-card,
+  .clubempire-card.bronze-card,
+  .clubempire-card.silver-card,
+  .clubempire-card.gold-card {
+    height: 195px;
+  }
+}
+
+
+
+@media screen and (min-width:1400px) {
+
+  .landing-bg-img .landingpage-right-line img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+    width: 28%;
+  }
+
+  .landing-bg-img .landingpage-left-line img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 25%;
+  }
+
+  .landingpage-text {
+    font-size: 13px;
+  }
+
+  header .navbar-nav {
+    font-size: 16px;
+  }
+
+  header .navbar-nav {
+    font-size: 16px;
+  }
+
+  header .right-subnav a {
+    font-size: 12px;
+  }
+
+  .filter-list li,
+  .filter-list button {
+    font-size: 12px;
+  }
+
+  .btn-white {
+    font-size: 12px;
+  }
+
+  .advt-modal .modal-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  /* 
+  .text-white {
+    font-size: 12px;
+  } */
+
+  .navbar-light .navbar-brand {
+    width: 15%;
+  }
+
+  .center-menu .nav-item .nav-link {
+    font-size: 14px;
+  }
+
+  .right-subnav .nav-item .nav-link {
+    font-size: 10px;
+  }
+
+  .eightpx {
+    font-size: 16px;
+  }
+
+  .quickbook .emp-dropdown .btn {
+    font-size: 14px;
+  }
+
+  .gen-drop .emp-dropdown .btn {
+    font-size: 12px;
+  }
+
+  .quickbook .datePicker input {
+    font-size: 14px;
+  }
+
+  .quickbook .qb-btn {
+    font-size: 14px
+  }
+
+  .quickbook .emp-dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding: 0.25rem 1.2rem;
+  }
+
+  .browse-cinema .emp-dropdown .btn {
+    font-size: 12px;
+  }
+
+  /* 
+  .promo-addS {
+    max-width: 99%;
+  } */
+
+  .quickbook {
+    zoom: 0.9;
+  }
+
+  .promo-addS .slick-slide img {
+    height: 200px;
+  }
+
+  /* movie box */
+  .movieBox .content ul li,
+  .movieBox .content span,
+  .movieBox .content button,
+  .movieBox .content a {
+    font-size: 12px;
+  }
+
+  .new-movies span {
+    font-size: 14px;
+  }
+
+  .movieBox span {
+    font-size: 14px;
+  }
+
+  .mb-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .movieBox .content .btn-white {
+    height: 35px;
+  }
+
+  .quickbook .qb-text::after {
+    height: 50px;
+    right: 3px;
+  }
+
+  .fbDetails {
+    padding: 15px 0px 15px 10px;
+  }
+
+  .brCinema .eTitle {
+    font-size: 16px;
+  }
+
+  .brCinema .yr {
+    font-size: 14px;
+  }
+
+  .brCinema ul li {
+    font-size: 14px;
+  }
+
+  .cinemaShowtime li {
+    width: 92px;
+    height: 100px;
+    margin: 0px 15px;
+    padding-top: 5px;
+  }
+
+  .timing-slot p,
+  .timing-slot span {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width:1900px) {
+
+  .landing-bg-img .landingpage-right-line img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+    width: 28%;
+  }
+
+  .landing-bg-img .landingpage-left-line img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 25%;
+  }
+
+  header .navbar-nav {
+    font-size: 18px;
+  }
+
+  .btn-showTickets,
+  .quickbook-content .b-dropdown button {
+    font-size: 14px;
+  }
+
+  .filter-list li,
+  .filter-list button {
+    font-size: 16px;
+  }
+
+  .filter-list li,
+  .filter-list button {
+    font-size: 16px;
+  }
+
+  .btn-white {
+    font-size: 14px;
+  }
+
+  .browse-cinema .emp-dropdown .btn {
+    font-size: 14px;
+  }
+
+  /* 
+  .text-white {
+    font-size: 14px;
+  } */
+
+  .navbar-light .navbar-brand {
+    width: 20%;
+  }
+
+  .navbar-light .navbar-brand {
+    width: 15%;
+  }
+
+  .center-menu .nav-item .nav-link {
+    font-size: 18px;
+  }
+
+  .right-subnav .nav-item .nav-link {
+    font-size: 12px;
+  }
+
+  .fbDetails {
+    padding: 15px 15px 15px 10px;
+  }
+
+  .foodBevrage .fb-name {
+    font-size: 18px;
+  }
+
+  .foodBevrage .fb-price {
+    font-size: 14px;
+  }
+
+  .quickbook {
+    zoom: 1;
+  }
+
+  .brCinema .eTitle {
+    font-size: 18px;
+  }
+
+  .brCinema .yr {
+    font-size: 18px;
+  }
+
+  .brCinema ul li {
+    font-size: 18px;
+  }
+
+  .cinemaShowtime li {
+    margin: 0px 15px;
+    width: 108px;
+    height: 108px;
+  }
+
+  .quickbook .qb-text::after {
+    right: 20px;
+  }
+
+}
+
+.ltr {
+  direction: ltr;
+}

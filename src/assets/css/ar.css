@@ -1,0 +1,436 @@
+/* @font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../fonts/Arabic/DINNextLTArabic-Bold.eot');
+  src: url('../fonts/Arabic/DINNextLTArabic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arabic/DINNextLTArabic-Bold.woff2') format('woff2'),
+    url('../fonts/Arabic/DINNextLTArabic-Bold.woff') format('woff'),
+    url('../fonts/Arabic/DINNextLTArabic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../fonts/Arabic/DINNextLTArabic-Regular.eot');
+  src: url('../fonts/Arabic/DINNextLTArabic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arabic/DINNextLTArabic-Regular.woff2') format('woff2'),
+    url('../fonts/Arabic/DINNextLTArabic-Regular.woff') format('woff'),
+    url('../fonts/Arabic/DINNextLTArabic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'GESSTwoMedium-Medium';
+  src: url('../fonts/Arabic/GESSTwoMedium-Medium.otf');
+  unicode-range: 'U+00-FF';
+}
+@font-face {
+  font-family: 'GESSTwoLight-Light';
+  src: url('../fonts/Arabic/GESSTwoLight-Light.otf');
+}
+@font-face {
+  font-family: "Montserrat-Reg";
+  src: url("../fonts/Montserrat/Montserrat-Regular.otf");
+  /* font-weight: 500;
+  font-style: normal; */
+}
+@font-face {
+  font-family: "Montserrat-Med";
+  src: url("../fonts/Montserrat/Montserrat-Medium.otf");
+  /* src: url("../fonts/Montserrat/Montserrat-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat/Montserrat-Medium.woff2") format("woff2"),
+    url("../fonts/Montserrat/Montserrat-Medium.woff") format("woff"),
+    url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype"),
+    url("../fonts/Montserrat/Montserrat-Medium.svg#Montserrat-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal; */
+}
+
+body.rtl-class {
+  font-family: 'GESSTwoLight-Light' !important;
+  overflow-x: hidden;
+}
+.rtl-class .ar-number {
+  font-family: "Montserrat-Reg";
+}
+.rtl-class .slick-slider {
+  direction: ltr;
+}
+.rtl-class .time-tag a {
+  font-family: "Montserrat-Reg";
+}
+.rtl-class .content {
+  text-align: right;
+}
+.rtl-class .exp-cinema-card .card-overlay .cinema-image {
+  direction: ltr;
+}
+.rtl-class .exp-cinema-card .card-overlay {
+  direction: ltr;
+}
+/* .rtl-class .checkout-fixed .checkout-grid {
+  grid-template-columns: 2% 4% 50% 4% 9% 4%;
+} */
+.rtl-class .checkout-fixed .vertical-line {
+  margin-top: 0px;
+}
+.rtl-class .checkout-fixed .checkout-list li::before {
+  margin-left: 10px;
+}
+.rtl-class .checkout-fixed .grid-half {
+  grid-column-gap: 0%;
+}
+/* .rtl-class .checkout-fixed .checkout-list li::after {
+  content: "\2714";
+  color: #99c566;
+  padding-right: 10px;
+} */
+.rtl-class .movie-content .sub-features .sub:not(:last-child):after  {
+  content: none;
+}
+.rtl-class .movie-content .sub-features .sub:not(:first-child):after {
+  content: "";
+  height: 60%;
+  width: 1px;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  margin-right: 4px;
+  background-color: #fff;
+}
+.rtl-class .main-heading .primary-line {
+  margin-left: 12px;
+}
+.rtl-class .date-card  {
+  font-family: "Montserrat-Reg"
+}
+.rtl-class .m-format {
+  font-family: "Montserrat-Reg"
+}
+.rtl-class .multiselect__input {
+  direction: ltr;
+}
+.rtl-class .custom-dropdown .dropdown-toggle::after {
+ margin-right: 05px;
+}
+.rtl-class .new-emp-dropdown {
+  left: 0;
+  right: auto;
+}
+.rtl-class .screen-tabs .list-inline-item:not(:first-child)::after {
+  content: "";
+    position: absolute;
+    right: -2.5%;
+    top: 0px;
+    background-color: #fff;
+    width: 1px;
+    height: 16px;
+    top: 3px;
+    display: block;
+}
+.rtl-class .screen-tabs .list-inline-item:not(:last-child)::before {
+  content: none;
+}
+.rtl-class .fnb-card .fnb-content .qty .icon a {
+  /* margin-top: -6px; */
+  font-family: "Montserrat-Reg";
+  font-size: 15px;
+}
+.rtl-class .fnb-half {
+  direction: ltr;
+}
+.rtl-class .fnb-card .grid-half {
+  direction: rtl;
+}
+.rtl-class .fnb-card .fnb-content .fnb-amt {
+  text-align: right;
+}
+.rtl-class {
+  direction: rtl !important;
+}
+
+.direction-class {
+  direction: initial !important;
+}
+
+.book-tickets-svg svg {
+  margin-left: 5px !important;
+}
+
+.left-dot a::after {
+  left: -8px !important;
+}
+
+/* .transform-arrow .prev{ 
+    left: -30px !important;
+    transform: rotateY(-180deg) !important;
+}
+.transform-arrow .next{ 
+    right: -30px !important;
+    transform: rotateY(-180deg) !important;
+} */
+.ar-preference-tabs .tabs>div:nth-child(1) {
+  border-left: 1px dotted #fff;
+  border-right: 0 !important;
+}
+
+.ar-input-container .input-container label {
+  left: 0;
+  right: auto;
+}
+
+.rtl-class .list-inline-item {
+  margin-left: 0.5rem !important;
+  margin-right: 0rem;
+}
+
+.mob-aside-back {
+  transform: rotateY(180deg);
+}
+
+.format-list.ar-format-list::after {
+  left: 5px !important;
+  right: auto !important;
+}
+
+.ar-ml {
+  margin-left: 0px;
+}
+
+.ar-seat-range {
+  border-right: 1px dotted #CACACA;
+  border-left: 0 !important;
+}
+
+.ar-seat-range.seat-range::before {
+  right: 0;
+  left: auto;
+}
+
+.ar-seat-range.seat-range::after {
+  right: 0;
+  left: auto;
+}
+
+.ar-seat-range.seat-range span::before {
+  right: 19px;
+  left: auto;
+}
+
+.ar-seat-range.seat-range span::after {
+  right: 19px;
+  left: auto;
+}
+
+.ar-seat-cat.seat-cat p {
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.ar-seat-info.seat-info li .selec,
+.ar-seat-info.seat-info li .avail,
+.ar-seat-info.seat-info li .unavail {
+  margin-left: 6px;
+  margin-right: auto;
+}
+
+.ar-arrow-svg,
+.rtl-class .mob-arrow-svg {
+  transform: rotateY(180deg);
+}
+
+.rtl-class .list-inline {
+  padding-right: 0;
+}
+
+.rtl-class ul {
+  padding-right: 0;
+}
+
+.rtl-class .search-section ul {
+  text-align: right
+}
+
+.rtl-class .terms-section ul {
+  text-align: right;
+}
+
+.ar-counter-box.counter-box .decrease {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: 0.5px solid #ffffff;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-right: 0;
+}
+
+.ar-counter-box.counter-box .increase {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-right: 0.5px solid #ffffff;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-left: 0;
+}
+
+.ar-login2Modal .modal-content .modal-header .close {
+  left: 15px;
+  right: auto;
+}
+
+.rtl-class .terms-section,
+.rtl-class .aboutUs-section {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  header .emp-header.er-emp-header .navbar-brand {
+    width: 140px;
+    margin-right: 0;
+    text-align: right !important;
+  }
+
+  header .emp-header.er-emp-red-header .red-logo {
+    width: auto;
+    margin-right: 0;
+    text-align: right !important;
+  }
+
+  .er-movieDetail-slider .slick-prev {
+    left: 10%;
+  }
+
+  .er-movieDetail-slider .slick-next {
+    right: 10%;
+  }
+
+  .ar-ml {
+    margin-left: 15px;
+  }
+
+  .rtl-class .ar-tc-list {
+    padding-right: 2rem !important;
+  }
+}
+
+@media(min-width:992px) {
+  .rtl-class .quickbook-content .col-12 span {
+    font-size: 11px;
+    padding: 3px 10px;
+  }
+
+  .rtl-class .quickbook-content .b-dropdown button,
+  .rtl-class .btn-showTickets {
+    font-size: 9px;
+  }
+
+  .rtl-class .ar-flt-txt {
+    font-size: 16px;
+  }
+
+
+}
+
+@media(min-width:1200px) {
+
+  .rtl-class .showtime .fill-green .color-text {
+    font-size: 16px;
+  }
+
+  .rtl-class .movie-desc {
+    font-size: 18px;
+  }
+
+  .rtl-class .eTitle {
+    font-size: 22px;
+  }
+
+  .ar-center-nav .nav-item .nav-link {
+    font-size: 21px !important;
+  }
+
+  .rtl-class header .dropdown-toggle {
+    font-size: 13px !important;
+  }
+
+  .rtl-class header .dropdown-toggle::after {
+    margin-right: 10px;
+  }
+
+  .rtl-class .filter-list button {
+    font-size: 14px;
+  }
+
+  .rtl-class .eTitleblack {
+    font-size: 22px;
+  }
+
+  .rtl-class .quickbook-content .b-dropdown button {
+    line-height: initial;
+    font-size: 12px;
+  }
+
+  .rtl-class .btn-showTickets {
+    font-size: 12px;
+  }
+
+  .rtl-class .quickbook-content .col-12 span {
+    font-size: 14px;
+
+  }
+
+  .rtl-class .cus-pre-btn {
+    font-size: 20px;
+  }
+
+  .rtl-class .ar-flt-txt {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .rtl-class .ar-flt-txt {
+    font-size: 18px;
+  }
+}
+
+
+
+/* NEW ADDED LOYALTY */
+
+/* .emp_new_checkbox .check {
+  left: auto !important;
+  right: 0;
+}
+
+.red-point {
+  left: auto !important;
+  right: 0;
+  transform: translateX(0%) !important;
+}
+
+.bronze-point {
+  left: auto !important;
+  right: 33.33%;
+  transform: translateX(-33.33%) !important;
+}
+
+.silver-point {
+  left: auto !important;
+  right: 66.66%;
+  transform: translateX(-66.66%) !important;
+}
+
+.gold-point {
+  left: auto !important;
+  right: 100%;
+  transform: translateX(100%) !important;
+}
+
+.membership-progress-endPoint {
+  left: 0;
+  right: auto !important;
+} */
